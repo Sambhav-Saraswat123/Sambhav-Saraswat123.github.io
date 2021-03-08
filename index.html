@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sambhav Saraswat</title>
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="https://i.postimg.cc/HLtv0jXN/Mlogo.jpg">
-  </head>
-  <body>
-    <section class="glass">
-      <nav class="navbar-inverse selection-none">
-        <div class="navbar-header">
-          <button data-toggle="collapse" data-target="#navbar" class="navbar-toggle">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="#">
+            <span class="ml-3 text-xl as">Sambhav Saraswat</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-white as" href="https://scratch.mit.edu/users/IOCHARIDWARTECH/">Scratch</a>
+            <a class="mr-5 hover:text-white as" href="https://sambhav-saraswat123.github.io/Calculator">Calculator</a>
+            <a class="mr-5 hover:text-white as" href="https://sambhav-saraswat123.github.io/Tasks">Tasks(ToDo)</a>
+            <a class="mr-5 hover:text-white as" href="https://console.dialogflow.com/api-client/demo/embedded/e447149d-fc7e-4402-a23b-e72146d8b670">A.T.O.I.(Chatbot)</a>
+          </nav>
+          <a href="https://www.youtube.com/channel/UCu09TOEaiAZqs4_eOOOUgHA">
+          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">YouTube
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
           </button>
-          <a href="#" class="navbar-brand">Sambhav Saraswat</a>
+        </a>
         </div>
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="https://scratch.mit.edu/users/IOCHARIDWARTECH/">Scratch</a></li>
-            <li><a href="https://www.youtube.com/channel/UCu09TOEaiAZqs4_eOOOUgHA">YouTube</a></li>
-          </ul>
+      </header>
+      <section class="text-gray-400 bg-gray-900 body-font" style="min-height: 733px; height: 100%;">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img src="https://i.ytimg.com/vi_webp/0IEX8eQ2Iso/maxresdefault.webp" alt="vid1">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-white mt-6 mb-3">Develop Web</h2>
+              <p class="leading-relaxed text-base">New H.T.M.L. Series</p>
+              <a href="https://www.youtube.com/watch?v=0IEX8eQ2Iso">
+                <button class="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 rounded"><i class="bi bi-camera-reels-fill"></i>&nbsp;&nbsp;Watch on YouTube</button>
+              </a>
+            </div>
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img src="https://i.ytimg.com/vi_webp/w3kwe9JGw9s/maxresdefault.webp" alt="vid2">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-white mt-6 mb-3">The Catalyzer</h2>
+              <p class="leading-relaxed text-base">Get <b>Google Drive link</b> for <b>any kind</b> of file</p>
+              <a href="https://www.youtube.com/watch?v=w3kwe9JGw9s">
+                <button class="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 rounded"><i class="bi bi-camera-reels-fill"></i>&nbsp;&nbsp;Watch on YouTube</button>
+              </a>
+            </div>
+          </div>
         </div>
-      </nav>
-      <div style="padding: 20px; font-size: larger;">
-        <ul class="col-lg-10 col-md-7 col-sm-12 col-xs-12">
-          <li>🔭 I’m currently working on ...the HTML, CSS, JavaScript(JS) Tutorial.</li>
-          <li>🌱 I’m currently learning ... es6JavaScript.</li>
-          <li>🤔 I’m looking for help with ...You, Please Subscribe to my channel.</li>
-          <li>📫 How to reach me ...Goto the comment box on my most recent videos.</li>
-        </ul>
-      </div> 
-      <div id="videos" style="padding: 10px;">
-        <iframe class="col-lg-9 col-md-5 col-sm-12 col-xs-12" style="max-width: 100%; width: 560px;"height="315" src="https://www.youtube.com/embed/0IEX8eQ2Iso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="col-lg-9 col-md-5 col-sm-12 col-xs-12" style="max-width: 100%; width: 560px;"height="315" src="https://www.youtube.com/embed/w3kwe9JGw9s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <iframe class="col-lg-9 col-md-5 col-sm-12 col-xs-12" style="max-width: 100%; width: 560px;"height="315" src="https://www.youtube.com/embed/QadRl06Hjzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="col-lg-9 col-md-5 col-sm-12 col-xs-12" style="max-width: 100%; width: 560px;"height="315" src="https://www.youtube.com/embed/T4ihKywAzog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
       </section>
-  </body>
+</body>
 </html>
