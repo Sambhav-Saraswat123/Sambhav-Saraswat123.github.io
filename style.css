@@ -5,3 +5,7 @@
     background-color: #FFFFFF;
     color: #0F9DEC;
 }
+::-moz-selection{
+    background-color: #FFFFFF;
+    color: #0F9DEC;
+}
