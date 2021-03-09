@@ -1,3 +1,7 @@
 .as{
     cursor: pointer;
 }
+::selection{
+    background-color: #FFFFFF;
+    color: #0F9DEC;
+}
